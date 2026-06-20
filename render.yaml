@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: sasp-mesai-bot
+    runtime: node
+    buildCommand: npm install
+    startCommand: node bot.js
+    plan: free
