@@ -9,7 +9,7 @@ const client = new Client({
 });
 
 // ================== AYARLAR KISMI ==================
-const BOT_TOKEN = MTUxNzg5MDUxMzE2NzE4ODE0MQ.GUNIqo.W69j4zilrLUiY0pXx3ZHQbA1Ug4jIBgsLn90ro; // Buraya bota ait token gelecek kanka
+const BOT_TOKEN = "MTUxNzg5MDUxMzE2NzE4ODE0MQ.GUNIqo.W69j4zilrLUiY0pXx3ZHQbA1Ug4jIBgsLn90ro"; // Buraya bota ait token gelecek kanka
 const ONAY_KANAL_ID = 1505518539933483009; // Onay butonlarının düşeceği kanal ID'si
 const LOG_KANAL_ID = 1505518539254005921;  // Herkesin göreceği mesai log kanal ID'si
 // ===================================================
