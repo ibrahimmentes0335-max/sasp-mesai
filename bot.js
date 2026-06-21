@@ -10,7 +10,7 @@ const client = new Client({
 
 // ================== AYARLAR KISMI ==================
 const BOT_TOKEN = process.env.DISCORD_TOKEN;
-const ONAY_KANAL_ID = 1505518539933483009; // Onay butonlarının düşeceği kanal ID'si
+const ONAY_KANAL_ID = 1505518540537597969; // Onay butonlarının düşeceği kanal ID'si
 const LOG_KANAL_ID = 1505518539254005921;  // Herkesin göreceği mesai log kanal ID'si
 // ===================================================
 
