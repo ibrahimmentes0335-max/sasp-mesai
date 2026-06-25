@@ -1,7 +1,9 @@
 services:
-  - type: web
-    name: sasp-mesai-bot
+  - type: worker
+    name: kelime-oyunu-botu
     runtime: node
     buildCommand: npm install
     startCommand: node bot.js
-    plan: free
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
